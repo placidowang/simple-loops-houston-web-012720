@@ -20,11 +20,8 @@ end
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  count = 0
-  loop do
+  number_of_times.times do
     puts phrase
-    count += 1
-    break if count == number_of_times
   end
 end
 
